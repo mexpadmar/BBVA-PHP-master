@@ -1,0 +1,32 @@
+{
+    "name": "bbva/sdk",
+    "description": "This is a client implementing the payment services for Bbva at bbva.com",
+    "type": "library",
+    "version": "2.0.0",
+    "minimum-stability": "stable",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Bbva",
+            "homepage": "http://www.bbva.mx/",
+            "email": "plataformas.especiales.mx@bbva.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.2.1",
+        "ext-curl": "*",
+        "ext-hash": "*",
+      "ext-json": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.8.*"
+    },
+    "support": {
+        "issues": "https://github.com/EcommerceBBVA/BBVA-PHP/issues"
+    },
+    "autoload": {
+        "psr-4":{
+            "Bbva\\": "Bbva/"
+        }
+    }
+}
